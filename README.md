@@ -71,7 +71,7 @@ Para utilizar a API da Hugging Face para análise de sentimentos, siga os passos
 
 ## Clonando o Repositório
 Clone este repositório em sua máquina local usando o seguinte comando:
--    
+
     ```bash
     git clone https://github.com/naionbelas/Classificador-de-Sentimentos.git
     ```
