@@ -77,7 +77,7 @@ Clone este repositório em sua máquina local usando o seguinte comando:
     ```
 
 ## Navegue até a pasta do projeto e instale o TensorFlow.js com o seguinte comando:
--
+
     ```bash
     npm install @tensorflow/tfjs
     ```
