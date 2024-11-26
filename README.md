@@ -24,6 +24,7 @@ A necessidade de uma ferramenta acessível e eficiente para análise de sentimen
 ## Tecnologias Utilizadas
 - **Visual Studio Code**: Editor de código utilizado para desenvolvimento.
 - **XAMPP**: Servidor local utilizado para testes (opcional).
+- **NODE.JS**: é uma ambiente de execução de JavaScript disponível para várias plataformas, de código aberto e gratuita, que permite os programadores criar servidores, aplicações da Web, ferramentas de linha de comando e programas de automação de tarefas.
 - **HTML**: Estrutura da interface web.
 - **BOOTSTRAP**: O Bootstrap foi utilizado para estilizar a interface, proporcionando um design responsivo e moderno.
 - **CSS**: Estilização da interface.
