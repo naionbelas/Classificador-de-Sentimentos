@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análise de Sentimentos</title>
+
+    <!-- Incluir Bootstrap via CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        body {
+            background-color: #f8f9fa;
+            padding-top: 50px;
+        }
+
+        .container {
+            max-width: 600px;
+        }
+
+        .card {
+            padding: 20px;
+            background-color: white;
+        }
+        #result {
+            font-size: 24px; /* Tamanho da fonte aumentado */
+            font-weight: bold; /* Deixa o texto mais negrito */
+            color: #333; /* Cor do texto */
+        }
+    </style>
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="card shadow-sm">
+            <h2 class="text-center mb-4">Análise de Sentimentos</h2>
+
+            <!-- Formulário para o texto de entrada -->
+            <div class="form-group">
+                <label for="inputText">Digite o texto para análise:</label>
+                <textarea class="form-control" id="inputText" rows="4" placeholder="Digite seu texto aqui..."></textarea>
+            </div>
+
+            <button id="analyzeButton" class="btn btn-primary btn-block mt-3">Analisar Sentimento</button>
+
+            <!-- Exibir o resultado -->
+            <div id="result" class="mt-4"></div>
+        </div>
+    </div>
+
+    <!-- Incluir o JS do Bootstrap e o script do seu código -->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>
